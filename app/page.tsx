@@ -38,33 +38,33 @@ export default function Home() {
   return (
     <div className="min-h-screen">
       {/* Sticky Navigation Buttons */}
-      <div className="sticky top-0 z-50 bg-white shadow-md flex items-center justify-center px-6 py-4">
-        {/* Logo */}
-        <div className="absolute left-6 flex items-center">
+      <div className="sticky top-0 z-50 shadow-md flex items-center justify-center px-6 py-4 bg-white dark:bg-black">
+
+        {/* Navigation Buttons */}
+        <div className="flex gap-4 items-center flex-wrap justify-center ">
+          <a className="dark:hidden" href="">
           <Image
             src={"/cornell_fintech_logo.png"}
             alt="Logo"
             width={60}
             height={60}
             priority
+            className="inline-block"
           />
-        </div>
-
-        {/* Navigation Buttons */}
-        <div className="flex gap-4 items-center flex-wrap justify-center">
+          </a>
           <HeaderButton text="Home" href="" />
           {sectionsData.map((section) => (
-            <HeaderButton
-              key={section.id}
-              text={section.title}
-              href={section.id}
-            />
+          <HeaderButton
+            key={section.id}
+            text={section.title}
+            href={section.id}
+          />
           ))}
         </div>
       </div>
 
       {/* Title Page Section */}
-      <section className="flex flex-col justify-center items-center h-screen bg-white px-6 sm:px-16">
+      <section className="flex flex-col justify-center items-center h-screen px-6 sm:px-16">
         <div className="flex flex-col sm:flex-row items-center sm:justify-center gap-8 mb-8">
           {/* Logo */}
           <Image

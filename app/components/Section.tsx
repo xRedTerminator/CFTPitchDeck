@@ -18,11 +18,11 @@ const Section: React.FC<SectionProps> = ({ id, title, content }) => {
       className="min-h-screen flex flex-col justify-center items-center px-6 sm:px-16 lg:px-24 max-w-screen-xl mx-auto border-b border-gray-200"
     >
       <h2 className="text-2xl sm:text-3xl font-bold mb-6">{title}</h2>
-      <div className="text-base sm:text-lg leading-7 text-gray-700 w-full">
+      <div className="text-base sm:text-lg leading-7 text-black dark:text-white w-full">
         {content.map((blockGroup, index) => {
           if (blockGroup.type === "text" && blockGroup.textContent) {
             return (
-              <p key={index} className="mb-8">
+              <p key={index} className="mb-8 ">
                 {blockGroup.textContent}
               </p>
             );
@@ -41,7 +41,7 @@ const Section: React.FC<SectionProps> = ({ id, title, content }) => {
               <div key={index} className={`grid ${gridColsClass} gap-8 mb-8`}>
                 {blockGroup.blocks.map((block, blockIndex) => (
                   <div key={blockIndex} className="flex-1">
-                    <h4 className="bg-blue-300 p-2 rounded mb-2 text-center font-bold text-lg">
+                    <h4 className="bg-blue-300 p-2 rounded mb-2 text-center font-bold text-lg text-black">
                       {block.title}
                     </h4>
                     <ul className="list-disc pl-6 space-y-4">
