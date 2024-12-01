@@ -1,3 +1,7 @@
+##View Site 
+View [https://terraform05.github.io/CFTPitchDeck/](terraform05.github.io/CFTPitchDeck/) with your browser to see the site.
+
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
