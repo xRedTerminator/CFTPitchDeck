@@ -1,5 +1,5 @@
 ## View Site 
-View [https://terraform05.github.io/CFTPitchDeck/](terraform05.github.io/CFTPitchDeck/) with your browser to see the site.
+View [terraform05.github.io/CFTPitchDeck/](https://terraform05.github.io/CFTPitchDeck/) in your browser.
 
 ## Project Start
 
