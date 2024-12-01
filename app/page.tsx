@@ -5,12 +5,14 @@ import Team from "./components/Team";
 import sectionsDataRaw from "./data/sections.json"; 
 import peopleDataRaw from "./data/people.json";
 import type { Person } from "./components/Team";
+import companyDetails from "./data/company.json"
+
 
 // Import people json data
 const people: Person[] = peopleDataRaw.map((person) => ({
   name: person.name,
   role: person.role,
-  imageUrl: person.imageURL,
+  imageDir: person.imageDir,
 }));
 
 // Interfaces for sections.json
@@ -40,10 +42,10 @@ export default function Home() {
         {/* Logo */}
         <div className="absolute left-6 flex items-center">
           <Image
-            src="https://upload.wikimedia.org/wikipedia/commons/4/4b/Charles_Schwab_Corporation_logo.svg"
-            alt="Home"
-            width={40}
-            height={40}
+            src={"/cornell_fintech_logo.png"}
+            alt="Logo"
+            width={60}
+            height={60}
             priority
           />
         </div>
@@ -66,8 +68,8 @@ export default function Home() {
         <div className="flex flex-col sm:flex-row items-center sm:justify-center gap-8 mb-8">
           {/* Logo */}
           <Image
-            src="https://upload.wikimedia.org/wikipedia/commons/4/4b/Charles_Schwab_Corporation_logo.svg"
-            alt="Schwab logo"
+            src={companyDetails.logoDir}
+            alt="Logo"
             width={200}
             height={200}
             priority
@@ -75,9 +77,11 @@ export default function Home() {
           {/* Company Name and Ticker */}
           <div className="text-center sm:text-left">
             <h1 className="text-3xl sm:text-4xl font-bold">
-              Charles Schwab Corporation
+              {companyDetails.name}
             </h1>
-            <p className="mt-2 text-2xl sm:text-3xl">NYSE: SCHW</p>
+            <p className="mt-2 text-2xl sm:text-3xl">
+              NYSE: {companyDetails.nyse}
+            </p>
           </div>
         </div>
 
