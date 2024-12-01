@@ -1,0 +1,216 @@
+[
+  {
+    "id": "market-overview",
+    "title": "Market Overview",
+    "content": [
+      {
+        "type": "text",
+        "textContent": "Industry: WealthTech"
+      },
+      {
+        "type": "blocks",
+        "blocks": [
+          {
+            "title": "Market Dynamics",
+            "items": [
+              "Market Size: $7 billion, expected $13 billion by 2029",
+              "Growth Rate: CAGR of 13-15% over next 5 years",
+              "Key Players: Betterment, Wealthfront, Robinhood, Vanguard"
+            ]
+          },
+          {
+            "title": "Market Segmentation",
+            "items": [
+              "Core Segments: Robo-Advisors, Digital Brokerage, Personal Finance Apps",
+              "Target Audience: Retail Investors, Millennials/GenZ, High-Net-Worth Individuals"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "swot-analysis",
+    "title": "SWOT Analysis",
+    "content": [
+      {
+        "type": "blocks",
+        "blocks": [
+          {
+            "title": "Strengths",
+            "items": [
+              "Innovative, data-driven financial services",
+              "Low fees, accessible to retail investors",
+              "AI-powered, personalized"
+            ]
+          },
+          {
+            "title": "Weaknesses",
+            "items": [
+              "Regulatory challenges",
+              "Cybersecurity risks",
+              "Trust with automated platforms"
+            ]
+          },
+          {
+            "title": "Opportunities",
+            "items": [
+              "Expansion into emerging markets",
+              "Growing demand for ESG investing",
+              "AI and automation improvements"
+            ]
+          },
+          {
+            "title": "Threats",
+            "items": [
+              "Intense competition",
+              "Susceptible to economic downturns",
+              "Data security"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "company-overview",
+    "title": "Company Overview",
+    "content": [
+      {
+        "type": "text",
+        "textContent": "Founded: 1971 | Headquarters: San Francisco, CA"
+      },
+      {
+        "type": "blocks",
+        "blocks": [
+          {
+            "title": "Business Model",
+            "items": [
+              "Robo-advisory",
+              "Self-directed investing",
+              "Banking services",
+              "Retirement accounts",
+              "Revenue through fees and premium services"
+            ]
+          },
+          {
+            "title": "Key Metrics",
+            "items": [
+              "$8+ trillion in AUM",
+              "30 million customers",
+              "Fees ranging from 0.25% to 0.40%",
+              "Average client account size: $55,000 - $60,000"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "why-charles-schwab",
+    "title": "Why Charles Schwab",
+    "content": [
+      {
+        "type": "blocks",
+        "blocks": [
+          {
+            "title": "Cost-Effective Model",
+            "items": [
+              "Schwab: Low cost services with no commissions",
+              "Competitors: Similar fees, but less comprehensive services"
+            ]
+          },
+          {
+            "title": "Business Expansion",
+            "items": [
+              "Schwab: Acquired TD Ameritrade",
+              "Competitors: Cannot make acquisitions of this scale"
+            ]
+          },
+          {
+            "title": "Advanced Technology",
+            "items": [
+              "Schwab: AI-driven tax optimization and personalized portfolios",
+              "Competitors: No tax-loss harvesting/rebalancing"
+            ]
+          },
+          {
+            "title": "Strong Brand & Trust",
+            "items": [
+              "Schwab: High retention and strong NPS",
+              "Competitors: Less trust, brand recognition, more regulatory scrutiny"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "financial-analysis",
+    "title": "Financial Analysis",
+    "content": [
+      {
+        "type": "blocks",
+        "blocks": [
+          {
+            "title": "Key Metrics & Trends",
+            "items": [
+              "Net Income: Consistent growth",
+              "Operating Cash Flow: Consistent increase in generation",
+              "Capex and Investments: Significant growth recently",
+              "Debt Management: Controlled payments and balanced issuance",
+              "Stock Repurchases/Dividends: Regular stock repurchases with consistent increase in dividend payouts"
+            ]
+          },
+          {
+            "title": "Insights",
+            "items": [
+              "Resilient Cash Flow: Effective management of operational liquidity, strong recovery post pandemic",
+              "Strategic Capital Allocation: Investments in growth and innovation, focus on long-term expansion",
+              "Shareholder Value Focus: Commitment to share buybacks, consistent increase in dividend payouts, focus on returning value to investors"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "investment-thesis",
+    "title": "Investment Thesis and Recommendation",
+    "content": [
+      {
+        "type": "blocks",
+        "blocks": [
+          {
+            "title": "Strong Financial Health",
+            "items": [
+              "Consistent net income and operating cash flow growth, with controlled debt management"          
+            ]
+          },
+          {
+            "title": "Focus on Long-Term",
+            "items": [
+              "Strategic capital allocation for growth and innovation, with a focus on long-term expansion"
+            ]
+          },
+          {
+            "title": "Resilient Position",
+            "items": ["Strong recovery post-pandemic and effective cash flow management"]
+          }
+        ]
+      },
+      {
+        "type": "blocks",
+        "blocks": [
+          {
+            "title": "Recommendation: BUY",
+            "items": [
+              "The outlook for Charles Schwab appears favorable, making it a solid investment with upside potential over the next 12-18 months"
+            ],
+            "fullWidth": true
+          }
+        ]
+      }
+    ]
+  }
+]
