@@ -13,7 +13,7 @@ const prefix = "/CFTPitchDeck"; //comment out for dev env
 const people: Person[] = peopleDataRaw.map((person) => ({
   name: person.name,
   role: person.role,
-  imageDir: prefix+person.imageDir,
+  imageDir: `${prefix}${person.imageDir}`,
 }));
 
 // Interfaces for sections.json
@@ -45,7 +45,7 @@ export default function Home() {
         <div className="flex gap-4 items-center flex-wrap justify-center ">
           <a className="dark:hidden" href="">
           <Image
-            src={"/cornell_fintech_logo.png"}
+            src={`${prefix}/cornell_fintech_logo.png`}
             alt="Logo"
             width={60}
             height={60}
@@ -69,7 +69,7 @@ export default function Home() {
         <div className="flex flex-col sm:flex-row items-center sm:justify-center gap-8 mb-8">
           {/* Logo */}
           <Image
-            src={companyDetails.logoDir}
+            src={`${prefix}${companyDetails.logoDir}`}
             alt="Logo"
             width={200}
             height={200}
