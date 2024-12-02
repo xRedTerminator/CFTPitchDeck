@@ -7,17 +7,14 @@ import peopleDataRaw from "./data/people.json";
 import type { Person } from "./components/Team";
 import companyDetails from "./data/company.json"
 
+const prefix = "/CFTPitchDeck"; //comment out for dev env
+
 // Import people json data
 const people: Person[] = peopleDataRaw.map((person) => ({
   name: person.name,
   role: person.role,
-  imageDir: person.imageDir,
+  imageDir: prefix+person.imageDir,
 }));
-
-// log in the console the image dir of each person
-people.forEach((person) => {
-  console.log(person.imageDir);
-});
 
 // Interfaces for sections.json
 export interface Block {
