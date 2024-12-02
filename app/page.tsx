@@ -1,4 +1,4 @@
-import Image from "next/image";
+//import Image from "next/image";
 import HeaderButton from "./components/HeaderButton"; 
 import Section from "./components/Section"; 
 import Team from "./components/Team";
@@ -15,6 +15,9 @@ const people: Person[] = peopleDataRaw.map((person) => ({
   role: person.role,
   imageDir: `${prefix}${person.imageDir}`,
 }));
+
+// console log all image dir
+people.map((person) => console.log(person.imageDir));
 
 // Interfaces for sections.json
 export interface Block {
@@ -44,12 +47,11 @@ export default function Home() {
         {/* Navigation Buttons */}
         <div className="flex gap-4 items-center flex-wrap justify-center ">
           <a className="dark:hidden" href="">
-          <Image
+          <img
             src={`${prefix}/cornell_fintech_logo.png`}
             alt="Logo"
             width={60}
             height={60}
-            priority
             className="inline-block"
           />
           </a>
@@ -68,12 +70,11 @@ export default function Home() {
       <section className="flex flex-col justify-center items-center h-screen px-6 sm:px-16">
         <div className="flex flex-col sm:flex-row items-center sm:justify-center gap-8 mb-8">
           {/* Logo */}
-          <Image
+          <img
             src={`${prefix}${companyDetails.logoDir}`}
             alt="Logo"
             width={200}
             height={200}
-            priority
           />
           {/* Company Name and Ticker */}
           <div className="text-center sm:text-left">
