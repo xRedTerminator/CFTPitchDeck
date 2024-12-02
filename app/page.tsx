@@ -42,7 +42,7 @@ export default function Home() {
         <div className="flex gap-4 items-center flex-wrap justify-center ">
           <a className="dark:hidden" href="">
             <Image
-              src={"images/cornell_fintech_logo.png"}
+              src="CFTPitchDeck/images/cornell_fintech_logo.png"
               alt="Logo"
               width={60}
               height={60}
