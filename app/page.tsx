@@ -7,12 +7,13 @@ import peopleDataRaw from "./data/people.json";
 import type { Person } from "./components/Team";
 import companyDetails from "./data/company.json"
 
+const prefix = process.env.NEXT_PUBLIC_BASE_PATH || "";
 
 // Import people json data
 const people: Person[] = peopleDataRaw.map((person) => ({
   name: person.name,
   role: person.role,
-  imageDir: person.imageDir,
+  imageDir: `${prefix}${person.imageDir}`,
 }));
 
 // Interfaces for sections.json
