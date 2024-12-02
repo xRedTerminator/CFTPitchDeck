@@ -2,7 +2,7 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   /* config options here */
-  /* basePath: "/terraform05.github.io", */
+  basePath: "/CFTPitchDeck" //Remove this line for development
 };
 
 export default nextConfig;
