@@ -24,19 +24,19 @@ const Team: React.FC<TeamProps> = ({ people }) => {
           {people.map((person) => (
             <li key={person.name} className="flex-shrink-0">
               <div className="flex flex-col items-center gap-y-2">
-          <img
-            alt={person.name}
-            src={person.imageDir}
-            className="h-16 w-16 rounded-full object-cover object-center"
-          />
-          <div className="text-center">
-            <h3 className="text-base font-semibold tracking-tight text-gray-900 dark:text-gray-100">
-              {person.name}
-            </h3>
-            <p className="text-sm font-semibold text-blue-800 dark:text-blue-200">
-              {person.role}
-            </p>
-          </div>
+                <img
+                  alt={person.name}
+                  src={person.imageDir}
+                  className="h-16 w-16 rounded-full object-cover object-center"
+                />
+                <div className="text-center">
+                  <h3 className="text-base font-semibold tracking-tight text-gray-900 dark:text-gray-100">
+                    {person.name}
+                  </h3>
+                  <p className="text-sm font-semibold text-blue-800 dark:text-blue-200">
+                    {person.role}
+                  </p>
+                </div>
               </div>
             </li>
           ))}
