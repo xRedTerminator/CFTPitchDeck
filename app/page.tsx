@@ -7,7 +7,10 @@ import peopleDataRaw from "./data/people.json";
 import type { Person } from "./components/Team";
 import companyDetails from "./data/company.json"
 
-const prefix = "/CFTPitchDeck"; //comment out for dev env
+//const prefix = "/CFTPitchDeck"; //comment out for dev env
+const prefix = process.env.REACT_APP_PREFIX || '';
+
+const CFTLogoPath = `${prefix}/cornell_fintech_logo.png`;
 
 // Import people json data
 const people: Person[] = peopleDataRaw.map((person) => ({
@@ -18,6 +21,7 @@ const people: Person[] = peopleDataRaw.map((person) => ({
 
 // console log all image dir
 people.map((person) => console.log(person.imageDir));
+console.log(`${prefix}/cornell_fintech_logo.png`);
 
 // Interfaces for sections.json
 export interface Block {
@@ -43,25 +47,24 @@ export default function Home() {
     <div className="min-h-screen">
       {/* Sticky Navigation Buttons */}
       <div className="sticky top-0 z-50 shadow-md flex items-center justify-center px-6 py-4 bg-white dark:bg-black">
-
         {/* Navigation Buttons */}
         <div className="flex gap-4 items-center flex-wrap justify-center ">
           <a className="dark:hidden" href="">
-          <img
-            src={`${prefix}/cornell_fintech_logo.png`}
-            alt="Logo"
-            width={60}
-            height={60}
-            className="inline-block"
-          />
+            <img
+              src={CFTLogoPath}
+              alt="Logo"
+              width={60}
+              height={60}
+              className="inline-block"
+            />
           </a>
           <HeaderButton text="Home" href="" />
           {sectionsData.map((section) => (
-          <HeaderButton
-            key={section.id}
-            text={section.title}
-            href={section.id}
-          />
+            <HeaderButton
+              key={section.id}
+              text={section.title}
+              href={section.id}
+            />
           ))}
         </div>
       </div>
