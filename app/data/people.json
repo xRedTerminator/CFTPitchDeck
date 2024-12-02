@@ -2,31 +2,31 @@
   {
     "name": "Kevin Goldberg",
     "role": "APM",
-    "imageDir": "/peopleHeadshots/AlexRamirez.jpg"
+    "imageDir": "/images/peopleHeadshots/AlexRamirez.jpg"
   },
   {
     "name": "Jacob Zwerling",
     "role": "BA",
-    "imageDir": "/peopleHeadshots/AlexRamirez.jpg"
+    "imageDir": "/images/peopleHeadshots/AlexRamirez.jpg"
   },
   {
     "name": "Alex Ramirez",
     "role": "SWE",
-    "imageDir": "/peopleHeadshots/AlexRamirez.jpg"
+    "imageDir": "/images/peopleHeadshots/AlexRamirez.jpg"
   },
   {
     "name": "Saanvi Jain",
     "role": "SWE",
-    "imageDir": "/peopleHeadshots/SaanviJain.jpg"
+    "imageDir": "/images/peopleHeadshots/SaanviJain.jpg"
   },
   {
     "name": "Jason Chen",
     "role": "SWE",
-    "imageDir": "/peopleHeadshots/AlexRamirez.jpg"
+    "imageDir": "/images/peopleHeadshots/AlexRamirez.jpg"
   },
   {
     "name": "Simran Duggi",
     "role": "SWE",
-    "imageDir": "/peopleHeadshots/AlexRamirez.jpg"
+    "imageDir": "/images/peopleHeadshots/AlexRamirez.jpg"
   }
 ]
