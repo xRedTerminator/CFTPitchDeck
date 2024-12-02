@@ -7,10 +7,11 @@ import peopleDataRaw from "./data/people.json";
 import type { Person } from "./components/Team";
 import companyDetails from "./data/company.json"
 
-//const prefix = "/CFTPitchDeck"; //comment out for dev env
-const prefix = process.env.REACT_APP_PREFIX || '';
+const prefix = "/CFTPitchDeck"; //comment out for dev env
+console.log("PREFIX |"+prefix+"|");
 
-const CFTLogoPath = `${prefix}/cornell_fintech_logo.png`;
+const CFTLogoPath = prefix+"/cornell_fintech_logo.png";
+console.log("CFTLogoPath |"+CFTLogoPath+"|");
 
 // Import people json data
 const people: Person[] = peopleDataRaw.map((person) => ({
